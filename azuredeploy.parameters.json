@@ -3,13 +3,13 @@
    "contentVersion": "1.0.0.0",
    "parameters": {
       "hostingPlanName": {
-         "value": "daisamiHostingPlan001"
+         "value": "GEN-UNIQUE"
       },
       "webSiteName": {
-         "value": "MyHostingWeb001"
+         "value": "GEN-UNIQUE"
       },
-      "publicIPAddressName":{
-        "value": "daisamiMyPublicIP"
+      "storageAccountName":{
+        "value": "GEN-UNIQUE"
       }
    }
 }
