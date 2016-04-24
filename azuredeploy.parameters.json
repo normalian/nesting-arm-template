@@ -3,10 +3,10 @@
    "contentVersion": "1.0.0.0",
    "parameters": {
       "hostingPlanName": {
-         "value": "GEN-UNIQUE"
+         "value": "daisamiHostingPlan001"
       },
       "webSiteName": {
-         "value": "GEN-UNIQUE"
+         "value": "MyHostingWeb001"
       }
    }
 }
