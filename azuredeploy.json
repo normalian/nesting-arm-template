@@ -44,6 +44,10 @@
             "metadata": {
                 "description": "Describes plan's instance count"
             }
+        },
+        "publicIPAddressName" :{
+            "type": "string",
+            "defaultValue": "mypublicIp"          
         }
     },
     "resources": [
@@ -74,6 +78,15 @@
         },
         "dependsOn": [
         ]
+      },
+      {
+      "apiVersion": "2015-06-15",
+      "type": "Microsoft.Network/publicIPAddresses",
+      "name": "[variables('publicIPAddressName')]",
+      "location": "[resourceGroup().location]",
+      "properties": {
+        "publicIPAllocationMethod": "Dynamic"
       }
-    ]
+    }
+  ]
 }
